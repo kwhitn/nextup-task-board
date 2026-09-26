@@ -1,0 +1,15 @@
+:root {
+  color: #edf2ec;
+  background: #26332a;
+  font-family: Inter, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; padding: 1rem; }
+button, input, select { font: inherit; }
+button { touch-action: manipulation; }
+#root { width: 100%; }
