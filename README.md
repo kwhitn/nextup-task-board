@@ -1,16 +1,26 @@
-# React + Vite
+# NextUp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A weekly assignment board for tracking due dates, effort, subtasks, and completion.
 
-Currently, two official plugins are available:
+## Run in Codespaces
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Resume this Codespace and open the project in VS Code.
+2. In the integrated terminal, start the development server:
 
-## React Compiler
+   ```bash
+   npm run dev -- --host 0.0.0.0
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+   Run `npm install` first if dependencies have not been installed in this Codespace.
+3. In VS Code, open the **Ports** panel and choose **Open in Browser** for port `5173`.
 
-## Expanding the ESLint configuration
+The preview is available only while the Codespace and development server are running. Its forwarded URL is specific to the Codespace.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Verify changes
+
+```bash
+npm run lint
+npm run build
+```
+
+Tasks are stored in this browser's local storage; they are not synced between browsers or users.
